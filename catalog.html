@@ -51,26 +51,62 @@
             <li><button type="button">Убывание</button></li>
         </div>
         
-        <div>
-            <h3>Сетка</h3>
-            <ul>
-                <li>Адаптивная</li>
-                <li>Фиксированная</li>
-                <li>Резиновая</li>
-            </ul>
-        </div>
+        <form action="#" method="POST">
 
-        <div>
-            <h3>Особенности</h3>
+          <fieldset>
+            <legend>Сетка:</legend>
+  
             <ul>
-                <li>Слайдер</li>
-                <li>Блок преимуществ</li>
-                <li>Новости</li>
-                <li>Галерея</li>
-                <li>Корзина</li>
+              <li>
+                <label for="radio-adaptive">Адаптивная</label>
+                <input id="radio-adaptive" type="radio" name="filter-grid" value="adaptive" checked>
+              </li>
+  
+              <li>
+                <label for="radio-fixed">Фиксированная</label>
+                <input id="radio-fixed" type="radio" name="filter-grid" value="fixed">
+              </li>
+  
+              <li>
+                <label for="radio-flexible">Гибкая</label>
+                <input id="radio-flexible" type="radio" name="filter-grid" value="flexible">
+              </li>
             </ul>
-        </div>
-        <button type="button">Показать</button>
+          </fieldset>        
+          
+          <fieldset>
+            <legend>Особенности:</legend>
+  
+            <ul>
+              <li>
+                <label for="checkbox-slider">Слайдер</label>
+                <input id="checkbox-slider" type="checkbox" name="checkboxSlider" checked >
+              </li>
+  
+              <li>
+                <label for="checkbox-benefits-block">Блок преимуществ</label>
+                <input id="checkbox-benefits-block" type="checkbox" name="checkboxBenefitsBlock">
+              </li>
+  
+              <li>
+                <label for="checkbox-news">Новости</label>
+                <input id="checkbox-news" type="checkbox" name="checkboxNews" checked>
+              </li>
+  
+              <li>
+                <label for="checkbox-gallery">Галерея</label>
+                <input id="checkbox-gallery" type="checkbox" name="checkboxGallery">
+              </li>
+  
+              <li>
+                <label for="checkbox-cart">Корзина</label>
+                <input id="checkbox-cart" type="checkbox" name="checkboxCart">
+              </li>
+            </ul>
+          </fieldset>
+  
+          <button type="submit">Показать</button>
+        </form>  
       </section>
 
       <section>

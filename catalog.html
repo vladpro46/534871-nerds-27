@@ -33,13 +33,6 @@
       <section>
         <h2 class="visually-hidden">Фильтрация</h2>
 
-        <div>
-          <h3>Стоимость</h3>
-          <ul>
-            <li>От 0</li>
-            <li>До 15 000</li>
-          </ul>
-        </div>
 
         <div>
           <h3>Сортировать</h3>
@@ -51,7 +44,15 @@
             <li><button type="button">Убывание</button></li>
         </div>
         
-        <form action="#" method="POST">
+        <form action="#" method="POST" oninput="outputPriceMin.value=priceMin.value">
+
+          <fieldset>
+            <legend>Стоимость:</legend>
+            <input type="range" name="priceMin" id="" value="0" min="0" max="15000" step="100">
+
+            <output name="outputPriceMin" value="0">0</output>
+            <output name="outputPriceMax" value="15000">15000</output>
+          </fieldset>
 
           <fieldset>
             <legend>Сетка:</legend>

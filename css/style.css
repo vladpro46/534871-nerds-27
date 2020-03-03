@@ -70,3 +70,12 @@ button:active {
 .main-navigation a:active {
   color: rgba(0, 0, 0, 0.3);
 }
+
+.slogan-section {
+    background-color: #eeeeee  
+}
+
+.slogan-section figure {
+    border: 2px solid #ffffff ;
+    background-color: grey;
+}

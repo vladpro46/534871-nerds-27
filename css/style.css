@@ -90,49 +90,49 @@ button:active {
     list-style: none;
 }
 
-.features-section h3 {
+.order-section h3 {
     font-size: 24px;
     font-weight: bold;
     text-align: left;
     text-transform: uppercase;
 }
 
-.features-section h3 {
+.order-section h3 {
     font-size: 24px;
     font-weight: bold;
     text-align: left;
     text-transform: uppercase;
 }
 
-.features-section p {
+.order-section p {
     text-align: left;
 }
 
-.feature-apps button{
+.order-apps button{
     background-color: #00ca74;
 }
 
-.feature-apps button:hover,
-.feature-apps button:focus {
+.order-apps button:hover,
+.order-apps button:focus {
     background-color: #00bc6c;
 }
 
-.feature-apps button:active {
+.order-apps button:active {
     background-color: #00aa62;
 }
 
 
 
-.feature-presentations button{
+.order-presentations button{
     background-color: #efc84a;
 }
 
-.feature-presentations button:hover,
-.feature-presentations button:focus {
+.order-presentations button:hover,
+.order-presentations button:focus {
     background-color: #eab534;
 }
 
-.feature-presentations button:active {
+.order-presentations button:active {
     background-color: #e5a722;
 }
 

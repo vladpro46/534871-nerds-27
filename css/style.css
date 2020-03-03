@@ -122,7 +122,6 @@ button:active {
 }
 
 
-
 .order-presentations button{
     background-color: #efc84a;
 }
@@ -134,5 +133,39 @@ button:active {
 
 .order-presentations button:active {
     background-color: #e5a722;
+}
+
+.description-company{
+    text-align: left;
+    color: #283136;
+}
+
+.description-company h3{
+    font-size: 45px;
+    color: #000000;
+}
+
+.description-company .list-works{
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.features-company h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.features-company ul {
+    list-style: none;
+}
+
+.features-company p {
+    color: #283136;
+}
+
+.features-company span{
+    font-size: 45px;
+    font-weight: bold;
 }
 

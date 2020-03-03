@@ -24,14 +24,27 @@ button {
 
 .main-navigation {
     text-transform: uppercase;
-    line-height: 1.88;  
-    
+    line-height: 1.88;
     color: #000000;
-    background-color: #eeeeee;
 
-    
-  }
+    background-color: #eeeeee;
+}
 
 .main-navigation ul {
     list-style: none;
+}
+
+.main-navigation a {
+    color: #000000;
+    font-weight: 500;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus {
+  color: #fb565a;
+  outline: none;
+}
+
+.main-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
 }

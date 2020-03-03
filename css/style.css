@@ -14,3 +14,12 @@ body {
 a {
     text-decoration: none;    
 }
+
+.main-navigation {
+    line-height: 1.88;  
+    background-color: #eeeeee;
+  }
+
+.site-navigation {
+    list-style: none;
+  }

@@ -108,7 +108,7 @@ button:active {
     text-align: left;
 }
 
-.order-apps button{
+.order-apps button {
     background-color: #00ca74;
 }
 
@@ -122,7 +122,7 @@ button:active {
 }
 
 
-.order-presentations button{
+.order-presentations button{ 
     background-color: #efc84a;
 }
 
@@ -135,17 +135,17 @@ button:active {
     background-color: #e5a722;
 }
 
-.description-company{
+.description-company {
     text-align: left;
     color: #283136;
 }
 
-.description-company h3{
+.description-company h3 {
     font-size: 45px;
     color: #000000;
 }
 
-.description-company .list-works{
+.description-company .list-works {
     color: #000000;
     font-weight: bold;
     text-transform: uppercase;
@@ -164,7 +164,7 @@ button:active {
     color: #283136;
 }
 
-.features-company span{
+.features-company span {
     font-size: 45px;
     font-weight: bold;
 }
@@ -189,4 +189,37 @@ button:active {
 
 .contact-form {
     display: none;
+}
+
+.contact-description h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.contact-description p {
+    font-size: 16px;
+    text-align: left;
+    color: #666666;
+}
+
+.site-footer ul {
+    list-style: none;
+}
+
+.site-footer h3 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.site-footer p {
+    text-align: left;
+    color: #444444;
+}
+
+.footer-social-links {
+    height: 79px;
+    width: 79px;
+    background-color: #e1e1e1;
+    border-radius: 50%;
 }

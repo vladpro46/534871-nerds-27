@@ -33,12 +33,15 @@
     </header>
 
     <main>
-      <h1>Магазин готовых шаблонов</h1>
-
+      <div class="catalog-name">
+        <h1>Магазин готовых шаблонов</h1>
+      </div>
+      
       <section>
         <h2 class="visually-hidden">Фильтрация</h2>
 
-        <form action="#" method="POST" oninput="outputPriceMin.value=priceMin.value">
+        <form class="filtration-form" action="#" method="POST" oninput="outputPriceMin.value=priceMin.value">
+
           <fieldset>
             <legend>Стоимость:</legend>
             <input type="range" name="priceMin" id="" value="0" min="0" max="15000" step="100">

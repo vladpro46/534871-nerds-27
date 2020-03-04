@@ -169,3 +169,20 @@ button:active {
     font-weight: bold;
 }
 
+.links-partners li {
+    list-style: none;
+}
+.links-partners a {
+    opacity: 0.2;
+}
+
+.links-partners a:hover,
+.links-partners a:focus {
+    outline: none;
+    opacity: 1;
+}
+
+.links-partners a:active {
+    outline: none;
+    opacity: 0.1;
+}

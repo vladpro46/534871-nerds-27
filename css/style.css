@@ -236,3 +236,12 @@ button:active {
     text-align: center;
 }
 
+.filtration-form legend {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.filtration-form ul {
+    list-style: none;
+}

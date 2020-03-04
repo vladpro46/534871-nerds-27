@@ -186,3 +186,7 @@ button:active {
     outline: none;
     opacity: 0.1;
 }
+
+.contact-form {
+    display: none;
+}

@@ -232,7 +232,7 @@ button:active {
 
 .catalog-name h1 {
     font-size: 55px;
-    font-weight: 500;
+    line-height: 1;
     text-align: center;
 }
 
@@ -240,8 +240,33 @@ button:active {
     font-size: 18px;
     font-weight: bold;
     text-align: left;
+    text-transform: uppercase;
 }
 
 .filtration-form ul {
     list-style: none;
+    font-size: 14px;
+    text-align: left;
+}
+
+.price-range-field{
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.price-range-field output {
+    text-align: center;
+    display: block;
+    width: 60px;
+    background-color: #eeeeee;
+}
+
+.price-range-slider {
+    background-color: #eeeeee;
+    width: 160px;
+    
+}
+
+.sort-range-field  {
+    text-transform: uppercase;
 }

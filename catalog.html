@@ -42,93 +42,103 @@
 
         <form class="filtration-form" action="#" method="POST" oninput="outputPriceMin.value=priceMin.value">
 
-          <fieldset>
+          <fieldset class="price-range-field">
             <legend>Стоимость:</legend>
-            <input type="range" name="priceMin" id="" value="0" min="0" max="15000" step="100">
+            <div class="price-range-slider"> 
+              <input type="range" name="priceMin" id="" value="0" min="0" max="15000" step="100">
+            </div>
+            
+            <div>От
+              <output name="outputPriceMin" value="0">0</output>
+            </div>
 
-            <output name="outputPriceMin" value="0">0</output>
-            <output name="outputPriceMax" value="15000">15000</output>
+            <div>До
+              <output name="outputPriceMax" value="15000">15000</output>
+            </div>
           </fieldset>
 
-          <fieldset>
+          <fieldset class="sort-range-field">
             <legend>Сортировать:</legend>
             
-            <ul>
+            <ul class="first-sort-list">
               <li>
-                <label for="radio-sort-by-price">Цене</label>
+                <label for="radio-sort-by-price">По цене</label>
                 <input id="radio-sort-by-price" type="radio" name="mainSort" value="byPrice" checked>
               </li>
               <li>
-                <label for="radio-sort-by-type">Типу</label>
+                <label for="radio-sort-by-type">По типу</label>
                 <input id="radio-sort-by-type" type="radio" name="mainSort" value="byType">
               </li>
               <li>
-                <label for="radio-sort-by-name">Названию</label>
+                <label for="radio-sort-by-name">По названию</label>
                 <input id="radio-sort-by-name" type="radio" name="mainSort" value="byName">
               </li>
                 </ul>
               
-            <ul>
+            <ul class="second-sort-list">
               <li>
-                <label for="radio-sort-by-descending">По убыванию</label>
+                <label for="radio-sort-by-descending">
+                  <img src="img/decor/icon-down-dir.svg" width="20" height="20" alt="Сортировка по убыванию">
+                </label>
                 <input id="radio-sort-by-descending" type="radio" name="sort-by-grade" value="byDescending" checked>
               </li>
+
               <li>
-                <label for="radio-sort-by-ascending">По возрастанию</label>
+                <label for="radio-sort-by-ascending">
+                  <img src="img/decor/icon-up-dir.svg" width="20" height="20" alt="Сортировка по возрастанию">
+                </label>
                 <input id="radio-sort-by-ascending" type="radio" name="sort-by-grade" value="byAscending">
               </li>
             </ul>
 
           </fieldset>
 
-          <fieldset>
+          <fieldset class="select-grid-field">
             <legend>Сетка:</legend>
   
             <ul>
-              <li>
-                <label for="radio-adaptive">Адаптивная</label>
                 <input id="radio-adaptive" type="radio" name="filter-grid" value="adaptive" checked>
-              </li>
+                <label for="radio-adaptive">Адаптивная</label>
   
-              <li>
-                <label for="radio-fixed">Фиксированная</label>
+              <li>        
                 <input id="radio-fixed" type="radio" name="filter-grid" value="fixed">
+                <label for="radio-fixed">Фиксированная</label>
               </li>
   
               <li>
-                <label for="radio-flexible">Гибкая</label>
                 <input id="radio-flexible" type="radio" name="filter-grid" value="flexible">
+                <label for="radio-flexible">Гибкая</label>
               </li>
             </ul>
           </fieldset>        
           
-          <fieldset>
+          <fieldset class="select-benefits-field">
             <legend>Особенности:</legend>
   
             <ul>
               <li>
-                <label for="checkbox-slider">Слайдер</label>
                 <input id="checkbox-slider" type="checkbox" name="checkboxSlider" checked >
+                <label for="checkbox-slider">Слайдер</label>
               </li>
   
               <li>
-                <label for="checkbox-benefits-block">Блок преимуществ</label>
                 <input id="checkbox-benefits-block" type="checkbox" name="checkboxBenefitsBlock">
+                <label for="checkbox-benefits-block">Блок преимуществ</label>
               </li>
   
               <li>
-                <label for="checkbox-news">Новости</label>
                 <input id="checkbox-news" type="checkbox" name="checkboxNews" checked>
+                <label for="checkbox-news">Новости</label> 
               </li>
   
-              <li>
-                <label for="checkbox-gallery">Галерея</label>
+              <li>         
                 <input id="checkbox-gallery" type="checkbox" name="checkboxGallery">
+                <label for="checkbox-gallery">Галерея</label>
               </li>
   
               <li>
-                <label for="checkbox-cart">Корзина</label>
                 <input id="checkbox-cart" type="checkbox" name="checkboxCart">
+                <label for="checkbox-cart">Корзина</label>
               </li>
             </ul>
           </fieldset>

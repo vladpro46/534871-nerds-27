@@ -1,16 +1,22 @@
+/*общий стиль страниц*/
 body {
     margin: 0;
     padding: 0;
 
     font-family: "Roboto", Arial, sans-serif;
     font-size: 16px;
-    line-height: 1.5;
     font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
     color: #000000;
     
     background-color: #ffffff;
 }
 
+/*скрытые тэги*/
 .visually-hidden {
     position: absolute;
     clip: rect(0 0 0 0);
@@ -20,19 +26,23 @@ body {
     color: #ffffff;
 }
 
+/*общая стилистика ссылок*/
 a {
     text-decoration: none;    
 }
 
+/*общая стилистика кнопок*/
 button {
     text-transform: uppercase;
     color: #ffffff;
     text-align: center;
     vertical-align: middle;
+    line-height: 1.13;
 
     background-color: #fb565a;
 }
 
+/*поведение кнопок при взаимодействии*/
 button:hover,
 button:focus {
     background-color: #e74246;
@@ -45,6 +55,7 @@ button:active {
     background-color: #d7373b;
 }
 
+/*стилизация навигации*/
 .main-navigation {
     text-transform: uppercase;
     line-height: 1.88;
@@ -71,18 +82,24 @@ button:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
+/*стилизация блока с слайдером*/
 .slogan-section {
     background-color: #eeeeee; 
 }
 
 .slogan-section figure {
-    border: 2px solid #ffffff;
+    border: 1px solid #ffffff;
     background-color: grey;
 }
 
 .slogan-section h3 {
     font-size: 55px;
     line-height: 1;
+    text-align: left;
+}
+
+.slogan-section p {
+    line-height: 1.5;
     text-align: left;
 }
 
@@ -94,18 +111,8 @@ button:active {
     font-size: 24px;
     font-weight: bold;
     text-align: left;
+    line-height: 1.25;
     text-transform: uppercase;
-}
-
-.order-section h3 {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: left;
-    text-transform: uppercase;
-}
-
-.order-section p {
-    text-align: left;
 }
 
 .order-apps button {
@@ -136,11 +143,12 @@ button:active {
 }
 
 .description-company {
-    text-align: left;
+
     color: #283136;
 }
 
 .description-company h3 {
+    line-height: 1;
     font-size: 45px;
     color: #000000;
 }
@@ -161,10 +169,12 @@ button:active {
 }
 
 .features-company p {
+    line-height: 1.13;
     color: #283136;
 }
 
 .features-company span {
+    line-height: 0.22;
     font-size: 45px;
     font-weight: bold;
 }
@@ -187,19 +197,20 @@ button:active {
     opacity: 0.1;
 }
 
+/*скрыл форму*/
 .contact-form {
     display: none;
 }
 
 .contact-description h3 {
     font-size: 18px;
+    line-height: 1.67;
     font-weight: bold;
-    text-align: left;
 }
 
 .contact-description p {
     font-size: 16px;
-    text-align: left;
+    line-height: 1.13;
     color: #666666;
 }
 
@@ -209,11 +220,12 @@ button:active {
 
 .site-footer h3 {
     font-size: 36px;
+    line-height: 1;
     font-weight: bold;
 }
 
 .site-footer p {
-    text-align: left;
+    line-height: 1.38;
     color: #444444;
 }
 

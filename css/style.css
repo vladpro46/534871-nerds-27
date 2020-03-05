@@ -263,19 +263,17 @@ button:active {
 
 .filtration-form legend {
     font-size: 18px;
+    line-height: 1.67;
     font-weight: bold;
-    text-align: left;
     text-transform: uppercase;
 }
 
 .filtration-form ul {
     list-style: none;
-    font-size: 14px;
-    text-align: left;
 }
 
 .price-range-field{
-    text-align: left;
+    line-height: 1.38;
     text-transform: uppercase;
 }
 
@@ -287,11 +285,25 @@ button:active {
 }
 
 .price-range-slider {
-    background-color: #eeeeee;
     width: 160px;
-    
+    background-color: #eeeeee;
 }
 
 .sort-range-field  {
+    font-size: 14px;
+    line-height: 1.29;
     text-transform: uppercase;
 }
+
+.sort-range-field legend {
+    line-height: 1;
+}
+
+.select-grid-field li,
+.select-benefits-field li {
+    font-size: 16px;
+    line-height: 1.25;
+    color: #283136;
+}
+
+

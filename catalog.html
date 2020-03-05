@@ -44,6 +44,7 @@
 
           <fieldset class="price-range-field">
             <legend>Стоимость:</legend>
+
             <div class="price-range-slider"> 
               <input type="range" name="priceMin" id="" value="0" min="0" max="15000" step="100">
             </div>
@@ -60,7 +61,7 @@
           <fieldset class="sort-range-field">
             <legend>Сортировать:</legend>
             
-            <ul class="first-sort-list">
+            <ul class="sort-list">
               <li>
                 <label for="radio-sort-by-price">По цене</label>
                 <input id="radio-sort-by-price" type="radio" name="mainSort" value="byPrice" checked>
@@ -73,16 +74,12 @@
                 <label for="radio-sort-by-name">По названию</label>
                 <input id="radio-sort-by-name" type="radio" name="mainSort" value="byName">
               </li>
-                </ul>
-              
-            <ul class="second-sort-list">
               <li>
                 <label for="radio-sort-by-descending">
                   <img src="img/decor/icon-down-dir.svg" width="20" height="20" alt="Сортировка по убыванию">
                 </label>
                 <input id="radio-sort-by-descending" type="radio" name="sort-by-grade" value="byDescending" checked>
               </li>
-
               <li>
                 <label for="radio-sort-by-ascending">
                   <img src="img/decor/icon-up-dir.svg" width="20" height="20" alt="Сортировка по возрастанию">
@@ -97,9 +94,10 @@
             <legend>Сетка:</legend>
   
             <ul>
+              <li> 
                 <input id="radio-adaptive" type="radio" name="filter-grid" value="adaptive" checked>
                 <label for="radio-adaptive">Адаптивная</label>
-  
+              </li>     
               <li>        
                 <input id="radio-fixed" type="radio" name="filter-grid" value="fixed">
                 <label for="radio-fixed">Фиксированная</label>
@@ -176,7 +174,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="location-description">
         <h2 class="visually-hidden">Расположение на карте</h2>
 
          <div>
@@ -184,7 +182,7 @@
           <img src="img/decor/map-marker-png.png" width="100" height="100" alt="Маркер NERDS на карте"> 
          </div> 
       
-        <div>
+        <div class="contact-description">
           <h3>NERDS DESIGN STUDIO</h3>
           <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
           <p>тел. +7 (812) 275-75-75</p>

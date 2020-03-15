@@ -250,6 +250,10 @@ button:active {
 }
 
 /*стилизация каталога*/
+.current-page {
+    width: 74px;
+    border-bottom: 2px solid #fb565a
+}
 
 .catalog-name {
     background-color: #eeeeee;
@@ -299,6 +303,29 @@ button:active {
     line-height: 1;
 }
 
+
+/*поведение фильтров*/
+
+fieldset label {
+    color: rgba(0, 0, 0);
+    opacity: 0.2;
+}
+
+fieldset input:hover + label,
+fieldset input:focus + label{
+    color: rgba(0, 0, 0);
+    opacity: 0.6;
+}
+
+fieldset input:active + label,
+fieldset input:checked + label{
+    color: #000000;
+    opacity: 1;
+}
+
+
+/*стилизация списка товаров*/
+
 .select-grid-field li,
 .select-benefits-field li {
     font-size: 16px;
@@ -306,8 +333,6 @@ button:active {
     color: #283136;
 }
 
-
-/*стилизация списка товаров*/
 .product-catalog {
     text-align: center;
     list-style: none;

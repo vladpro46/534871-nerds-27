@@ -20,7 +20,7 @@
         <ul class="site-navigation">
           <li><a href="#">Студия</a></li>
           <li><a href="#">Клиенты</a></li>
-          <li>Магазин</li>
+          <li class="current-page">Магазин</li>
           <li><a href="#">Контакты</a></li>
         </ul> 
 
@@ -63,31 +63,34 @@
             
             <ul class="sort-list">
               <li>
-                <label for="radio-sort-by-price">По цене</label>
                 <input id="radio-sort-by-price" type="radio" name="mainSort" value="byPrice" checked>
+                <label for="radio-sort-by-price">По цене</label>
               </li>
+
               <li>
-                <label for="radio-sort-by-type">По типу</label>
                 <input id="radio-sort-by-type" type="radio" name="mainSort" value="byType">
+                <label for="radio-sort-by-type">По типу</label>
               </li>
+
               <li>
-                <label for="radio-sort-by-name">По названию</label>
                 <input id="radio-sort-by-name" type="radio" name="mainSort" value="byName">
+                <label for="radio-sort-by-name">По названию</label>
               </li>
+
               <li>
-                <label for="radio-sort-by-descending">
-                  <img src="img/decor/icon-down-dir.svg" width="20" height="20" alt="Сортировка по убыванию">
-                </label>
                 <input id="radio-sort-by-descending" type="radio" name="sort-by-grade" value="byDescending" checked>
-              </li>
-              <li>
-                <label for="radio-sort-by-ascending">
-                  <img src="img/decor/icon-up-dir.svg" width="20" height="20" alt="Сортировка по возрастанию">
+                <label for="radio-sort-by-descending">
+                <img src="img/decor/icon-down-dir.svg" width="20" height="20" alt="Сортировка по убыванию">
                 </label>
+              </li>
+
+              <li>
                 <input id="radio-sort-by-ascending" type="radio" name="sort-by-grade" value="byAscending">
+                <label for="radio-sort-by-ascending">
+                 <img src="img/decor/icon-up-dir.svg" width="20" height="20" alt="Сортировка по возрастанию">
+                </label> 
               </li>
             </ul>
-
           </fieldset>
 
           <fieldset class="select-grid-field">
@@ -97,7 +100,8 @@
               <li> 
                 <input id="radio-adaptive" type="radio" name="filter-grid" value="adaptive" checked>
                 <label for="radio-adaptive">Адаптивная</label>
-              </li>     
+              </li>    
+
               <li>        
                 <input id="radio-fixed" type="radio" name="filter-grid" value="fixed">
                 <label for="radio-fixed">Фиксированная</label>
@@ -156,6 +160,7 @@
                 <p>Информационный сайт для туристов</p>
                 <button type="button">9 900 РУБ.</button>
               </li>
+
               <li>
                 <img class="item-header" src="img/decor/browser.svg" width="360" height="40" alt="Шапка товара">
                 <img src="img/content/img-pink-jpg.jpg" width="360" height="576" alt="Товар САЙТ 3">
@@ -163,6 +168,7 @@
                 <p>Продуктовый лендинг приложения для iOS и Android</p>
                 <button type="button">9 900 РУБ.</button>
               </li>
+
               <li>
                 <img class="item-header" src="img/decor/browser.svg" width="360" height="40" alt="Шапка товара">
                 <img src="img/content/img-barbershop-jpg.jpg" width="360" height="576" alt="Товар Borodinsky">
@@ -170,6 +176,7 @@
                 <p>Сайт салона красоты. Для мужчин, да.</p>
                 <button type="button">9 900 РУБ.</button>
               </li>
+
               <li>
                 <img class="item-header" src="img/decor/browser.svg" width="360" height="40" alt="Шапка товара">
                 <img src="img/content/img-mishka-jpg.jpg" width="360" height="576" alt="Товар Mishka">
@@ -177,6 +184,7 @@
                 <p>Интернет-магазин вязаных игрушек</p>
                 <button type="button">9 900 РУБ.</button>
               </li>
+
               <li>
                 <img class="item-header" src="img/decor/browser.svg" width="360" height="40" alt="Шапка товара">
                 <img src="img/content/img-aplus-jpg.jpg" width="360" height="576" alt="Товар Aplus">
@@ -184,6 +192,7 @@
                 <p>Лендинг курсов повышения квалификации</p>
                 <button type="button">9 900 РУБ.</button>
               </li>
+
               <li>
                 <img class="item-header" src="img/decor/browser.svg" width="360" height="40" alt="Шапка товара">
                 <img src="img/content/img-kvast-jpg.jpg" width="360" height="576" alt="Товар Kravt">

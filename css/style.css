@@ -307,3 +307,36 @@ button:active {
 }
 
 
+/*стилизация списка товаров*/
+.product-catalog {
+    text-align: center;
+    list-style: none;
+}
+
+.product-catalog h3{
+    text-transform: uppercase;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.product-catalog h3:hover,
+.product-catalog h3:focus {
+    color: #fb565a;
+}
+
+.product-catalog h3:active {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.product-catalog p{
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666;
+}
+
+.product-catalog .item-header{
+    opacity: 0.12;
+}

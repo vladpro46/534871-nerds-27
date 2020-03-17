@@ -28,7 +28,11 @@ body {
 
 /*общая стилистика ссылок*/
 a {
-    text-decoration: none;    
+    text-decoration: none; 
+}
+a:visited {
+    color: #000000;
+    text-decoration: none; 
 }
 
 /*общая стилистика кнопок*/
@@ -57,19 +61,79 @@ button:active {
 
 /*стилизация навигации*/
 .main-navigation {
+    display: flex;
+    flex-direction: row; 
+
     text-transform: uppercase;
     line-height: 1.88;
     color: #000000;
-
+    
+    min-height: 132px;
+    width: auto;
     background-color: #eeeeee;
+    padding-bottom: 0px;
 }
 
-.main-navigation ul {
+.main-navigation li {
     list-style: none;
 }
 
-.main-navigation a {
-    color: #000000;
+.main-header-logo {
+    padding-top: 49px;
+    padding-left: 140px;
+}
+
+.site-navigation {
+    display: flex;
+    flex-direction: row;
+    
+    width: 438px;
+    padding-top: 83px;
+    padding-left: 202px;
+    padding-right: 245px;
+    min-width: 10px;
+    margin: 0px;
+}
+
+.site-navigation :nth-child(1) {
+    width: 61px;
+    height: 15px;
+    padding-right: 47px;
+}
+.site-navigation :nth-child(2){
+    width: 76px;
+    height: 16px;
+    padding-right: 48px;
+}
+.site-navigation :nth-child(3){
+    width: 75px;
+    height: 13px;
+    padding-right: 45px;
+}
+.site-navigation :nth-child(4){
+    width: 86px;
+    height: 13px;
+    padding-right: 0px;
+}
+
+.main-cart {
+    display: flex;
+    flex-direction: row;
+
+    padding-top: 83px;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.main-cart li {
+    width: 115px;
+    height: 13px;
+}
+
+
+.main-cart img {
+    padding-right: 15px;
+    opacity: 0.3;
 }
 
 .main-navigation a:hover,
@@ -143,7 +207,6 @@ button:active {
 }
 
 .description-company {
-
     color: #283136;
 }
 
@@ -250,10 +313,14 @@ button:active {
 }
 
 /*стилизация каталога*/
-.current-page {
-    width: 74px;
+.site-navigation :nth-child(3) span{
+    padding-bottom: 12px;
+    padding-right: 0;
+    width: 74x;
     border-bottom: 2px solid #fb565a
 }
+
+
 
 .catalog-name {
     background-color: #eeeeee;

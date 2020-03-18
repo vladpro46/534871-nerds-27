@@ -277,19 +277,72 @@ button:active {
     color: #666666;
 }
 
+.site-footer {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
 .site-footer ul {
+    display: flex;
     list-style: none;
+
+    margin: 0px;
+    min-height: 50px;
+    width: 231px;
+
+    padding-top: 69px;
+    padding-right: 139px;
+    padding-bottom: 69px;
+    padding-left: 140px;
+}
+
+.site-footer li {
+    display: flex;
+    list-style: none;
+
+    padding-right: 12px;
+}
+
+.site-footer li:last-child {
+    padding-right: 0px;
+}
+
+.footer-vk-icon {
+    padding: 32px 26px 32px 27px;
+}
+
+.footer-facebook-icon {
+    padding: 28px 33px 29px 34px;
+}
+
+.footer-instagram-icon {
+    padding: 29px 29px 29px 29px;
+}
+
+.discount-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding-top: 78px;
+    padding-right: 356px;
+    padding-bottom: 76px;
 }
 
 .site-footer h3 {
     font-size: 36px;
     line-height: 1;
     font-weight: bold;
+
+    margin: 0px;
+    padding-bottom: 12px;
 }
 
 .site-footer p {
     line-height: 1.38;
     color: #444444;
+
+    margin: 0px;
 }
 
 .site-footer a {

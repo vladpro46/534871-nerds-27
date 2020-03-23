@@ -148,28 +148,75 @@ button:active {
 
 /*стилизация блока с слайдером*/
 .slogan-section {
+    display: flex;
     background-color: #eeeeee; 
 }
 
-.slogan-section figure {
-    border: 1px solid #ffffff;
-    background-color: grey;
+.slogan-section button {
+    height: 50px;
+    width: 240px;
 }
 
 .slogan-section h3 {
     font-size: 55px;
     line-height: 1;
     text-align: left;
+
+    padding-bottom: 28px;
+    margin: 0px;
 }
 
 .slogan-section p {
     line-height: 1.5;
     text-align: left;
+
+    padding-bottom: 42px;
+    margin: 0px;
 }
 
 .slogan-section ul {
+    display: flex;
+    flex-direction: row;
     list-style: none;
+
+    padding: 0px;
+    margin: 0px;
 }
+
+.slogan-description {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 40px;
+    width: 400px;
+    padding: 70px 55px 80px 140px;
+    margin: 0px;
+}
+
+.slogan-slider {
+    width: 698px;
+    height: 413px;  
+
+    padding: 0px;
+    margin: 0px;
+}
+
+.slogan-slider figure {
+    width: 697px;
+    height: 412px;  
+
+    background-color:#e1e1e1;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+.slogan-section .slogan-slider-radio {
+    width: 10px;
+    height: 10px; 
+
+}
+
 
 .order-section h3 {
     font-size: 24px;
@@ -373,8 +420,6 @@ button:active {
     border-bottom: 2px solid #fb565a
 }
 
-
-
 .catalog-name {
     background-color: #eeeeee;
 }
@@ -423,7 +468,6 @@ button:active {
     line-height: 1;
 }
 
-
 /*поведение фильтров*/
 
 fieldset label {
@@ -442,7 +486,6 @@ fieldset input:checked + label{
     color: #000000;
     opacity: 1;
 }
-
 
 /*стилизация списка товаров*/
 
